@@ -1,0 +1,31 @@
+.checkout {
+  display: flex;
+  background-color: ghostwhite;
+  padding: 15px;
+}
+
+.product_img {
+  height: 200px;
+}
+
+.product_info {
+  padding-left: 10px;
+  width: 60%;
+}
+
+.product_info > button {
+  align-self: flex-end;
+  margin-top: 60px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgb(76, 179, 243);
+  color: rgb(68, 182, 253);
+  padding: 10px 15px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.product_info > button:hover {
+  color: white;
+  background-color: lightskyblue;
+}

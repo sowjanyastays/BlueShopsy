@@ -1,0 +1,37 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    background-color: ghostwhite;
+    padding: 15px;
+    box-shadow: 0px 0px 10px lightskyblue;
+    border-radius: 12px;
+  }
+  
+  .item_img {
+    width: 27%;
+    border-radius: 8px;
+  }
+  
+  .item_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+    width: 60%;
+  }
+  
+  .item_info > button {
+    float: right;
+    margin-top: auto;
+    background-color: white;
+    border: 1px solid rgb(76, 179, 243);
+    color: rgb(68, 182, 253);
+    padding: 10px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .item_info > button:hover{
+    color: white;
+    background-color: lightskyblue;
+  }
+  
